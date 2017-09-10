@@ -1,4 +1,4 @@
-package com.challenge.Survey;
+package com.challene.survey.model;
 
 import com.google.common.base.MoreObjects;
 

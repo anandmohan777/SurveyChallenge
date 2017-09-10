@@ -1,4 +1,4 @@
-package com.challenge.Survey;
+package com.challene.survey.model;
 
 import java.sql.Timestamp;
 import java.util.List;
