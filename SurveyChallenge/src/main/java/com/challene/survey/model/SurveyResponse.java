@@ -1,6 +1,5 @@
 package com.challene.survey.model;
 
-import java.sql.Timestamp;
 import java.util.List;
 import java.util.Objects;
 
@@ -19,7 +18,6 @@ public class SurveyResponse {
 
 	public SurveyResponse(String email, String id, String submittedAt,
 			List<String> responses) {
-		super();
 		this.id = id;
 		this.email = email;
 		this.submittedAt = submittedAt;
@@ -72,13 +70,19 @@ public class SurveyResponse {
 
 	@Override
 	public boolean equals(Object obj) {
+
+		if (this == obj) {
+			return true;
+		}
+
 		if (null == obj) {
 			return false;
 		}
 
-		if (obj instanceof SurveyResponse) {
-			return Objects.equals(this.id, ((SurveyResponse) obj).id);
+		if (getClass() != obj.getClass()) {
+			return false;
 		}
-		return false;
+
+		return Objects.equals(this.id, ((SurveyResponse) obj).id);
 	}
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.challenge.Survey.SourceUtilTest" duration-ms="97" started-at="2017-09-13T01:47:00Z" finished-at="2017-09-13T01:47:00Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="97" started-at="2017-09-13T01:47:00Z" finished-at="2017-09-13T01:47:00Z">
+      <class name="com.challenge.Survey.SourceUtilTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.challenge.Survey.SourceUtilTest@b684286]" name="setup" is-config="true" duration-ms="23" started-at="2017-09-13T01:47:00Z" finished-at="2017-09-13T01:47:00Z">
+        </test-method>
+        <test-method status="PASS" signature="testAvgRatingQuestion()[pri:0, instance:com.challenge.Survey.SourceUtilTest@b684286]" name="testAvgRatingQuestion" duration-ms="59" started-at="2017-09-13T01:47:00Z" finished-at="2017-09-13T01:47:00Z">
+        </test-method>
+        <test-method status="PASS" signature="testParticipationPercentage()[pri:0, instance:com.challenge.Survey.SourceUtilTest@b684286]" name="testParticipationPercentage" duration-ms="5" started-at="2017-09-13T01:47:00Z" finished-at="2017-09-13T01:47:00Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.challenge.Survey.SourceUtilTest@b684286]" name="setup" is-config="true" duration-ms="0" started-at="2017-09-13T01:47:00Z" finished-at="2017-09-13T01:47:00Z">
+        </test-method>
+        <test-method status="PASS" signature="testReadCSV()[pri:0, instance:com.challenge.Survey.SourceUtilTest@b684286]" name="testReadCSV" duration-ms="0" started-at="2017-09-13T01:47:00Z" finished-at="2017-09-13T01:47:00Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.challenge.Survey.SourceUtilTest@b684286]" name="setup" is-config="true" duration-ms="0" started-at="2017-09-13T01:47:00Z" finished-at="2017-09-13T01:47:00Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
