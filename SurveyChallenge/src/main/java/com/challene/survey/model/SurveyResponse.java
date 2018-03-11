@@ -6,7 +6,6 @@ import java.util.Objects;
 import com.google.common.base.MoreObjects;
 
 /**
- * 
  * @author anand Entity to store the survey response.
  */
 public class SurveyResponse {
