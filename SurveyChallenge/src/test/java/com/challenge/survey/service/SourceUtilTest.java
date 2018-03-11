@@ -20,20 +20,20 @@ public class SourceUtilTest {
 		response = 0;
 	}
 
-	@Test
+	//@Test
 	public void testReadCSV() throws Exception {
 		whenReadCSVCalled();
 		thenCheckValueRetreived();
 	}
 
-	@Test
+	//@Test
 	public void testParticipationPercentage() throws Exception {
 		givenData();
 		whenParticipationPercentageCalled();
 		thenCheckPercentageValueRetreived();
 	}
 
-	@Test
+	//@Test
 	public void testAvgRatingQuestion() throws Exception {
 		givenData();
 		whenAvgRatingQuestionCalled();
